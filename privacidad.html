@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacidad · Steep Notes</title>
+<meta name="description" content="Política de privacidad de Steep Notes: qué datos de Google usa, dónde se guardan y cómo retirar el acceso.">
+<link rel="stylesheet" href="estilo.css">
+<link rel="alternate" hreflang="en" href="en/privacy.html">
+</head>
+<body>
+<main>
+<header><a href="./"><strong>Steep Notes</strong></a><a href="en/privacy.html" lang="en">English</a></header>
+<h1>Política de privacidad</h1>
+<p class="lead">Steep Notes es una aplicación local: se ejecuta en tu Mac y no tiene servidores. Esta página explica qué hace con tus datos de Google.</p>
+
+<h2>Quién la ofrece</h2>
+<p>Steep Notes es un proyecto personal. Contacto: abre una incidencia en <a href="https://github.com/labombina7/steep-notes-pages/issues">github.com/labombina7/steep-notes-pages/issues</a>.</p>
+
+<h2>Qué datos de Google usa y para qué</h2>
+<p>Cuando conectas una cuenta de Google, Steep Notes pide estos permisos:</p>
+<ul>
+  <li><code>openid</code> y <code>email</code>: para saber con qué cuenta has conectado y no mezclar cuentas (por ejemplo, la personal y la de tu empresa).</li>
+  <li><code>https://www.googleapis.com/auth/drive</code> (Google Drive): para <strong>leer</strong> los ficheros de las carpetas que eliges como entrada (incluidos Google Docs, Hojas y Presentaciones, que se exportan a texto) y <strong>escribir</strong> los resultados en la carpeta que eliges como salida. Steep Notes solo accede a las carpetas que configuras en tus flujos.</li>
+</ul>
+
+<h2>Dónde van tus datos</h2>
+<ul>
+  <li>Los ficheros se descargan de tu Google Drive <strong>a tu Mac</strong> y los resultados se suben de tu Mac a tu Drive.</li>
+  <li>Si un flujo usa IA, el texto de cada fichero se envía a <strong>tu propia cuenta de Claude</strong> (Anthropic) con tus instrucciones. Ningún otro servicio recibe tus datos.</li>
+  <li>Steep Notes no tiene servidores, no recoge estadísticas de uso ni telemetría y no vende ni comparte datos con nadie.</li>
+  <li>La autorización de Google (el <em>refresh token</em>) se guarda en el <strong>Llavero de macOS</strong> de tu Mac. Los registros de la aplicación no incluyen contenido de tus documentos ni credenciales.</li>
+</ul>
+
+<h2>Uso limitado</h2>
+<p>El uso y la transferencia a cualquier otra aplicación de la información recibida de las API de Google se ajustan a la <a href="https://developers.google.com/terms/api-services-user-data-policy">Política de datos de usuario de los servicios de API de Google</a>, incluidos los requisitos de uso limitado. Los datos de Google solo se usan para dar las funciones que ves en la aplicación y nunca para publicidad ni para entrenar modelos de IA de Steep Notes (no los hay).</p>
+
+<h2>Cómo retirar el acceso</h2>
+<ul>
+  <li>En Steep Notes: <em>Conexiones → Quitar</em> borra la autorización del Llavero.</li>
+  <li>En tu cuenta de Google: <a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a> → «Steep Notes» → «Quitar acceso».</li>
+  <li>Los resultados que Steep Notes guardó en tu Mac o en tu Drive son tuyos: puedes borrarlos cuando quieras.</li>
+</ul>
+
+<h2>Cambios</h2>
+<p>Si esta política cambia, se actualizará esta página. Última actualización: 22 de octubre de 2026.</p>
+
+<footer>Steep Notes · <a href="./">Inicio</a> · <a href="en/privacy.html" lang="en">English</a></footer>
+</main>
+</body>
+</html>
